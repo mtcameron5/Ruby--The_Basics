@@ -7,3 +7,6 @@ def execute(block)
 end 
 
 execute { puts "Hello from inside the execute method!" }
+
+# An exception is generated because an ampersand is not used as a parameter
+# block should be &block. 
